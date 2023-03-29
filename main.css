@@ -1,0 +1,557 @@
+@import url("https://fonts.googleapis.com/css2?family=Duru+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Duru+Sans&family=Zen+Maru+Gothic&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Duru Sans", sans-serif;
+  font-family: "Zen Maru Gothic", sans-serif;
+  margin-bottom: -10px !important;
+  
+}
+p:hover p::after{
+  content: "]";
+}
+.btn_fixed{
+  bottom: 20px;
+  position: fixed;
+  right: 10px;
+  background-color: yellow;
+  padding: 15px 50px !important;
+  font-size: 20px !important;
+  letter-spacing: 0.09em !important;
+  border-radius: 10px;
+  border: none;
+  color: rgb(247, 10, 10);
+  
+}
+.btn_fixed:hover{
+  opacity: 0.9;
+  bottom: 20px;
+  position: fixed;
+  right: 20px;
+  background-color: rgb(255, 157, 0);
+  padding: 15px 50px !important;
+  font-size: 20px !important;
+  letter-spacing: 0.09em !important;
+  box-shadow: 3px 5px 25px coral;
+}
+nav {
+  width: 100%;
+  background-color: #5855e7;
+  height: 123px;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+}
+.nav_container {
+  width: 85%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  margin-top: 5px;
+}
+.nav_links {
+  display: flex;
+}
+.link a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 40px;
+  font-family: "Duru Sans";
+  font-size: 22px;
+  line-height: 28px;
+  /* identical to box height */
+
+  align-items: center;
+
+  color: #ffffff;
+}
+.nav_container .btn {
+  border: none;
+  width: 187.14px;
+  height: 40px;
+  border-radius: 5px;
+}
+.nav_container .btn:hover {
+  border: 3px solid blue;
+  width: 177.14px;
+  height: 40px;
+  border-radius: 5px;
+  transform: translateY(5px);
+}
+header {
+  margin-top: 120px;
+  width: 100%;
+  display: flex;
+  background-color: #2e2e2e10;
+  height: 600px;
+}
+.title {
+  margin-top: 118px;
+  flex: 1;
+  margin-left: 100px;
+  align-items: center;
+}
+.title h3 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 50px;
+}
+.title_main {
+  color: #5855e7;
+}
+.title p {
+  font-family: "Duru Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 22px;
+
+  color: #000000;
+}
+.contact {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+}
+.contact .btn {
+  border: none;
+  font-family: sans-serif;
+  font-size: 22px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  background: #6347eb;
+  border-radius: 10px;
+  color: #ffffff;
+  width: 175px;
+  height: 40px;
+  justify-content: center;
+  margin-right: 30px;
+  padding: 1px;
+  letter-spacing: 0.02em;
+}
+.contact .btn:nth-child(2) {
+  background-color: white;
+  color: #000000;
+  border: 2px solid #6347eb;
+  font-weight: 600;
+  padding: 1px 3px;
+}
+.contact .btn:hover {
+  color: #5855e7;
+  background-color: #6247eb4c;
+  border: none;
+  border-radius: 20px;
+}
+.child {
+  flex: 1;
+  margin-top: 13px;
+}
+.child img {
+  height: 587px;
+}
+section {
+  width: 85%;
+  display: flex;
+  margin-left: 100px;
+  margin-top: 150px;
+}
+section .photo {
+  margin-right: 50px;
+  width: 535px;
+  height: 492px;
+}
+section h2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
+}
+.text {
+  margin-top: -40px;
+}
+.text p {
+  font-family: "Duru Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 29px;
+  margin-right: 48px;
+  color: #000000;
+}
+.section2 {
+  margin-top: 100px;
+  background-color: #5855e7;
+}
+.section2 .branchs {
+  display: grid;
+  width: 85%;
+  grid-template-columns: repeat(3, 2fr);
+  margin-top: 50px;
+  margin-left: 120px;
+}
+.section2 .title2 {
+  width: 100%;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 50px;
+  color: #ffffff;
+}
+.section2 .box div {
+  width: 150px;
+  height: 150px;
+}
+.section2 .box img {
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  transform: scale(1.2);
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 47px;
+}
+.section2 .box .name {
+  font-family: "san serif";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 50px;
+  color: #ffffff;
+  margin-left: -10px;
+  letter-spacing: 0.02em;
+}
+
+.branch2 {
+  width: 80%;
+  display: flex;
+  margin-left: 250px;
+}
+.branch2 .world {
+  margin-left: 150px;
+}
+.section2 .box {
+  text-align: center;
+  width: 275px;
+  display: inline-block;
+  padding: 20px;
+}
+.section2 .box .about {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 18px;
+  letter-spacing: 0.029em;
+  text-align: center;
+  color: #ffffff;
+  margin-top: -5px;
+  padding: 0 40px;
+  text-align: center;
+  text-indent: 10px;
+}
+.section2 .it .about {
+  padding: 0 29px;
+}
+.section2 .english .name {
+  margin-left: -20px;
+}
+.section3 .title {
+  text-align: center;
+  margin-top: -20px;
+}
+.section3 .title h2 {
+  font-family: "Duru Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 119px;
+  color: #eeeeee;
+}
+.section3 .title h6 {
+  font-family: "Duru Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: -126px;
+  color: #000000;
+}
+.children1 {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+}
+.children2 {
+  display: flex;
+  justify-content: space-between;
+  width: 52%;
+  margin: 60px auto;
+  text-align: center;
+  color: #ffffff;
+}
+.section3 .box {
+  background-color: #5855e7;
+  width: 251px;
+  height: 490px;
+  padding: 19px;
+  box-shadow: 0px 0px 35px rgba(17, 17, 17, 0.25);
+  border-radius: 15px;
+}
+.section3 .box img {
+  width: 250px;
+  border-radius: 5px;
+}
+.section3 .box .name {
+  font-family: "Duru Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+.section3 .box .age {
+  font-family: "Duru Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: -10px;
+}
+.section3 .box .about {
+  font-family: "Duru Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.section3 .box .btn {
+  font-family: "Duru Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #6347eb;
+  background: #ffffff;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 20px;
+  margin-top: 10px;
+}
+.section3 .box .btn:hover {
+  font-family: "Duru Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #6347eb;
+  background: #ffffff;
+  border-radius: 5px;
+  border: none;
+  padding: 7px 23px 5px 20px;
+  margin-top: 10px;
+  box-shadow: 2px 3px 3px 3px #2a01f4;
+}
+.section4 .title h2 {
+  font-family: "Duru Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 119px;
+  text-align: center;
+  color: #eeeeee;
+}
+.section4 .title h6 {
+  font-family: "Duru Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: -126px;
+  color: #000000;
+  text-align: center;
+}
+.section4 .contacts {
+  display: flex;
+  width: 85%;
+  background-color: #5855e7;
+  border-radius: 10px;
+  padding: 70px 55px;
+  color: #ffffff;
+}
+.section4 .contact_number {
+  margin-right: 100px;
+}
+
+.section4 .contacts h6 {
+  margin-top: -10px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+  font-family: "Duru Sans", sans-serif;
+  text-align: start;
+}
+.section4 .contacts img {
+  transform: scaleY(0.8);
+}
+ul {
+  margin-top: -60px;
+  position: relative;
+}
+ul div {
+  width: 20px;
+  height: 20px;
+  background: #a23ac1;
+  border-radius: 1px;
+  position: absolute;
+  left: -34px;
+  top: 6px;
+}
+ul li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  font-family: "Duru Sans", sans-serif;
+  color: #ffffff;
+  list-style: none;
+  margin-top: 30px;
+  position: relative;
+}
+.section4 .contacts .form p {
+  font-family: "Duru Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-top: -60px;
+  margin-bottom: 20px;
+}
+.section4 .contacts .form input {
+  width: 96%;
+  height: 45px;
+  padding-left: 10px;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: sans-serif;
+  color: #000000;
+  margin-bottom: 35px;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  border: none;
+}
+.section4 .contacts .form textarea {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: sans-serif;
+  color: #000000;
+  padding: 20px;
+  margin-top: 0px;
+  width: 88%;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.section4 .contacts .form .btn {
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+  border: none;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  color: #000000;
+  padding: 11px 32px;
+  margin-left: 177px;
+  margin-top: 20px;
+}
+.section4 .contacts .form .btn:hover {
+  transform: scale(1.1);
+  color: darkgray;
+  transition: 0.3s;
+  box-shadow: 3px 3px 3px darkblue;
+}
+footer {
+  background-color: #5855e7;
+  width: 100%;
+  height: 153px;
+  margin-top: 50px;
+}
+.foot {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  position: relative;
+}
+.foot .number {
+  display: flex;
+  color: #ffffff;
+}
+.foot .number .cnt {
+  margin-top: 30px;
+  margin-right: 30px;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 24px;
+}
+.foot .number div:nth-child(2) {
+  margin-top: 30px;
+}
+.foot .number div p {
+  margin-top: -10px;
+  font-size: 19px;
+  line-height: 23px;
+}
+.foot .net div {
+  display: flex;
+}
+.foot .net .netn {
+  font-weight: 550;
+  font-size: 19px;
+  line-height: 25px;
+  top: 15px;
+  position: absolute;
+  width: 150px;
+  right: -9px;
+}
+.foot .net div img {
+  width: 32px;
+  height: 32px;
+}
+.foot .net div p {
+  margin-left: 20px;
+  margin-top: 80px;
+  margin-bottom: 36px;
+}
